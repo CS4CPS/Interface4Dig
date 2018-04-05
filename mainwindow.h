@@ -5,12 +5,12 @@
 #include <vector>
 #include <string>
 #include <QtDebug>
-#include "hal/drv_sstp.h"
+#include "drv/drv_sstp.h"
 
-#include "hal_qt/drv_console.h"
-#include "hal_qt/drv_tcp_server.h"
+#include "drv/drv_console.h"
+#include "drv/drv_tcp_server.h"
 
-#include "rtdb/drv_rtdb_mem.h"
+#include "drv/drv_rtdb_mem.h"
 
 #include "diginterface.h"
 

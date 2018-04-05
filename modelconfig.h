@@ -8,7 +8,7 @@
 #include <iostream>
 
 #include <QByteArray>
-#include "hal_qt/drv_xml.h"
+#include "drv/drv_xml.h"
 
 // Api
 using api::DataObject;

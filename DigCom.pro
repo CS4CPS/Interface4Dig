@@ -17,32 +17,30 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     diginterface.cpp \
-    ../drv/hal_qt/drv_console.cpp \
-    ../drv/hal_qt/drv_LoopBuf.cpp \
-    ../drv/hal_qt/drv_tcp_server.cpp \
-    ../drv/hal/drv_base.cpp \
-    ../drv/hal/drv_sstp.cpp \
-    ../drv/rtdb/drv_rtdb_base.cpp \
-    ../drv/rtdb/drv_rtdb_mem.cpp \
     modelconfig.cpp \
-    ../drv/hal_qt/drv_xml.cpp \
-    ../drv/hal_qt/drv_xml.cpp
+    drv/drv_base.cpp \
+    drv/drv_console.cpp \
+    drv/drv_LoopBuf.cpp \
+    drv/drv_rtdb_base.cpp \
+    drv/drv_rtdb_mem.cpp \
+    drv/drv_sstp.cpp \
+    drv/drv_tcp_server.cpp \
+    drv/drv_xml.cpp
 
 HEADERS  += mainwindow.h \
     api/Api.hpp \
     api/ApiValue.hpp \
     diginterface.h \
-    ../drv/hal_qt/drv_console.h \
-    ../drv/hal_qt/drv_LoopBuf.h \
-    ../drv/hal_qt/drv_tcp_server.h \
-    ../drv/hal/drv_base.h \
-    ../drv/hal/drv_sstp.h \
     sstp_def.h \
-    ../drv/rtdb/drv_rtdb_base.h \
-    ../drv/rtdb/drv_rtdb_mem.h \
     modelconfig.h \
-    ../drv/hal_qt/drv_xml.h \
-    ../drv/hal_qt/drv_xml.h
+    drv/drv_base.h \
+    drv/drv_console.h \
+    drv/drv_LoopBuf.h \
+    drv/drv_rtdb_base.h \
+    drv/drv_rtdb_mem.h \
+    drv/drv_sstp.h \
+    drv/drv_tcp_server.h \
+    drv/drv_xml.h
 
 FORMS    += mainwindow.ui
 

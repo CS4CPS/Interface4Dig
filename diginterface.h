@@ -5,8 +5,8 @@
 
 #include "api/Api.hpp"
 #include "modelconfig.h"
-#include "hal/sysconfig.h"
-#include "rtdb/drv_rtdb_mem.h"
+#include "drv/sysconfig.h"
+#include "drv/drv_rtdb_mem.h"
 
 #include <vector>
 #include <string>
